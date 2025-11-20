@@ -14,7 +14,7 @@ Do not forget at the end of your alias to put a colon and then the name of the v
 You can then save your `.bashrc`. Close it and then in your terminal you can source your bashrc by typing in your home folder
 ```source .bashrc```
 
-The alias should now be understood by your terminal. So if you're just type `open_telemac` (or whatever alias you chose), you should be able to get inside the container. 
+The alias should now be understood by your terminal. So if you just type `open_telemac` (or whatever alias you chose), you should be able to get inside the container. 
 
 > [!NOTE]
 > It's better to launch the docker container in a dedicated folder rather than from the `/home/user` folder. That way, the container will not interact with all of the files inside the /home/user folder.
