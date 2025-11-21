@@ -26,9 +26,9 @@ Now we don't really see the box so let's zoom a little bit. To do this, you can 
 ### Hole `[1:20-2:10]`
 
 Now we are going to generate a cylinder that will act as our main obstacle `[1:25]`. As a radius we'll put 0.05.
-We don't care about the height as it's going to be 2d at the end of the (set it to 1). Let's now apply a translation of (Dx=0.2, DY=0.2, DZ=0) to put it in the middle of the plate `[1:38]`. Now we're going to perform a cut with
+We don't care about the height as it's going to be 2d at the end of the of the day (set it to 1). Let's now apply a translation of (Dx=0.2, DY=0.2, DZ=0) to put it in the middle of the plate `[1:38]`. Now we're going to perform a cut with
 the cut tool button `[1:48]`. We'll select as the main object the box that is going to be the flow and as a tool
-object the translated cylinder. You should see the cylinder disappeared and a hole in the plate where the cylinder was before `[2:04]`.
+object the translated cylinder. You should see the cylinder disappeared and there is a hole in the plate where the cylinder was before `[2:04]`.
 
 ### Partitioning the geometry `[2:17-5:41]`
 
@@ -92,5 +92,5 @@ The mesh remains not enough refined passed the hole, close to the outlet. Theref
 
 ## Exporting the mesh as a .MED file `[11:08]`
 
-Finally once we are done we can export the mesh by right clicking it and go into export med file and here you can save
+Finally once we are done we can export the mesh by right clicking it and going into export med file. Here you can save
 it wherever you want. It's going to be called it Mesh_1 for the next video. Save.
